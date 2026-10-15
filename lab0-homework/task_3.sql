@@ -1,0 +1,2 @@
+SELECT member_no, isbn, fine_assessed, 2*fine_assessed as double_fine, (fine_assessed * 2) - fine_assessed as diff from loanhist
+WHERE fine_assessed IS NOT NULL AND (fine_assessed * 2) - fine_assessed > 3

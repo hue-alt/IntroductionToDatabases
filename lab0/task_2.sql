@@ -1,0 +1,1 @@
+SELECT LastName, HomePhone from Employees;

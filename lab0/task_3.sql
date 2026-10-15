@@ -1,0 +1,1 @@
+SELECT ProductName, UnitPrice from Products;

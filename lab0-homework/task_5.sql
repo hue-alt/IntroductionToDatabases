@@ -1,0 +1,1 @@
+SELECT 'The title is: ' + title + ', title number ' + CONVERT(char,title_no) as ans from title
